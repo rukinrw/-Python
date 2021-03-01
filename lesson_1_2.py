@@ -7,4 +7,4 @@ minutes = (user_time % 3600) // 60
 seconds = (user_time % 3600) % 60
 
 # Вывод готового результата в виде чч:мм:сс
-print('Ваше время составляет: ', hour, ':', minutes, ':', seconds)
+print(f'Ваше время составляет: {hour:02d}:{minutes:02d}:{seconds:02d}')
