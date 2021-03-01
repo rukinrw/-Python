@@ -1,17 +1,11 @@
 # Блок ввода данных
-user_n = int(input("Введите произвольное число n: "))
+user_n = str(input("Введите произвольное число n: "))
 
-# Меняем тип переменных на строковые для сложения
-n1_str = str(user_n)
-n2_str = n1_str + n1_str
-n3_str = n2_str + n1_str
+n1 = user_n
+n2 = n1+n1
+n3 = n1+n2
 
-# Меняем тип переменных обратно на числовые для расчета
-n1 = int(n1_str)
-n2 = int(n2_str)
-n3 = int(n3_str)
-
-summ = n1 + n2 + n3
+summ = int(n1) + int(n2) + int(n3)
 
 # Блок вывода данных
 print('Сумма чисел в виде n+nn+nnn равна: ', summ)
