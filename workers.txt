@@ -1,0 +1,5 @@
+Tom 32000
+Bella 12500
+John 25400
+Samuel 10800
+Buba 16500
